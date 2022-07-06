@@ -472,7 +472,7 @@ body {
 /* start article part */
 .last-s-article-box {
   padding: 76px 0;
-  background-color: #F67E7E;
+  background-color: var(--main--text-main-color);
 }
 .article-h2andlink-box {
   position: relative;
@@ -574,10 +574,84 @@ body {
   font-size: 15px;
   line-height: 25px;
   text-align: right;
-  color: #FFFFFF;
+  color: var(--main-text-color);
   opacity: 0.6;
 }
 /* end footer part */
+
+
+/* start about us directors part */
+.directors-part {
+  padding: 140px 0;
+  background-color: #004047;
+}
+.directors-part__big-word {
+  margin: 0 0 64px 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.directors-part__list-directors {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.directors-part__directors {
+  position: relative;
+  margin-bottom: 76px;
+  width: 350px;
+  padding: 32px 24px 55px 24px;
+  background-color: #012F34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.directors-part__directors::after {
+  position: absolute;
+  top: 89%;
+  left: 43%;
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.directors-part__directors:nth-child(4) {
+  margin: 0;
+}
+.directors-part__directors:nth-child(5) {
+  margin: 0;
+}
+.directors-part__directors:nth-child(6) {
+  margin: 0;
+}
+.directors-part__name {
+  margin: 16px 0 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+.directors-part__job {
+  margin: 0 0 16px 0;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.directors-part__directors__social-icons {
+  margin: 0 8px;
+  color: var(--main-text-color);
+}
+.directors-part__directors__social-icons:hover {
+  color: var(--main--text-main-color);
+}
+/* end about us directors part */
 
 /* start about us page's clients part */
 .clients-part {
