@@ -234,8 +234,8 @@ body {
 
 .right-list::after {
   position: absolute;
-  top: 64%;
-  right: -57%;
+  top: 76.5%;
+  right: -56%;
   width: 200px;
   height: 244px;
   display: block;
