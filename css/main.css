@@ -387,3 +387,111 @@ body {
 }
 
 /* End of Delivery Section */
+
+/* start articel part */
+.last-s-article-box {
+  padding: 76px 0;
+  background-color: #F67E7E;
+}
+.article-h2andlink-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.article-h2andlink-box::before {
+  position: absolute;
+  top: -30%;
+  left: -11%;
+  width: 200px;
+  height: 244px;
+  display: block;
+  background-image: url("../images/Group8-article.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.article-h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
+.article-link {
+  padding: 10px 32px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #012F34;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+}
+.article-link:hover {
+  color: var(--main-text-color);
+  background-color: #012F34;
+}
+.footer-intro {
+  position: relative;
+  background-color: #002529;
+  padding: 48px 0;
+}
+.footer-box {
+  display: flex;
+}
+.foot-logo-and-links {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-links-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot-links {
+  margin-top: 25px;
+  text-decoration: none;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+.foot-links:hover {
+  color: var(--main--text-main-color);
+}
+.foot-middle-things {
+  margin-left: 125px;
+}
+.foot-midlle-info {
+  margin: 0;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+  opacity: 0.6;
+}
+.-foot-iconsandp {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.foot-social-icons {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-icons-link {
+  color: var(--main-text-color);
+}
+.foot-icons-link:hover {
+  color: var(--main--text-main-color);
+}
+.foot-icons-p {
+  margin-top: 51px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+/* end articel part */
